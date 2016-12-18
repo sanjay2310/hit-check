@@ -1,11 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int a;
-	int b;
-	int c;
-	int d;
-	int e;
+	int a, b, c, d, e;
 	float f;
 	printf("enter marks of english\n");
 	scanf("%d",&a);
