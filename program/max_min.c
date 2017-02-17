@@ -2,13 +2,12 @@
 #include <math.h>
  int main()
   {
-	     int  a, b, c, d;
+	     int  a, b;
              	
 		scanf("%d%d",&a,&b);
-           c = fmax(a,b);
-	   d = fmin(a,b);
-	    printf("maxx  = %d\n",c);
-	    printf("min = %d\n",d);
+          
+	    printf("fmaxx  = %d\n",fmax (a,b));
+	    printf("fmin = %d\n",fmin (a,b));
 	 
 	return 0;
 }

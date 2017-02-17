@@ -13,6 +13,7 @@ int main()
 	     scanf("%d",&d);
 	     printf("enter marks of science\n");
 	     scanf("%d",&e);
+
 	     f = (a+b+c+d+e)*100/500;
 	     printf("total percentage = %f\n",f);
 	     return 0;
